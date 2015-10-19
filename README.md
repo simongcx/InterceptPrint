@@ -9,7 +9,7 @@ Python module/class to intercept the print function and add datetime, line numbe
 
 ```python
 import InterceptPrintM
-InterceptPrintM.datetime = True # optional, adds a datetime stamp to the print
+InterceptPrintM.timestamp = True # optional, adds a datetime stamp to the print
 InterceptPrintM.linenumber = True # optional, adds the line number to the print
 ```
 
